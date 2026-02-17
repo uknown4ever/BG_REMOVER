@@ -67,7 +67,7 @@ function submitHandler() {
 function downloadFile() {
   var anchorElement = document.createElement("a");
   anchorElement.href = imageURL;
-  anchorElement.download = "removed_bg.png";
+  anchorElement.download = "new_img.png";
   document.body.appendChild(anchorElement);
 
   anchorElement.click();
